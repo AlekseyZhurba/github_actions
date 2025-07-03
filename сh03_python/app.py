@@ -14,6 +14,7 @@ async def favicon():
     return True
 
 
+
 @app.get("/", response_class=HTMLResponse)
 async def index():
     return """
