@@ -5,9 +5,11 @@ name: Python package
 
 on:
   push:
-    branches: [ "main" ]
+    paths:
+      - 'ch02_06/**'
   pull_request:
-    branches: [ "main" ]
+    paths:
+      - 'ch02_06/**'
 
 jobs:
   build:
